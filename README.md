@@ -1,0 +1,2 @@
+# Intelligent-helmet
+基于MX6ULL与linux设计的工厂工人智能安全头盔管理系统，包含上位机与下位机
