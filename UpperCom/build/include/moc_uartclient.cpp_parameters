@@ -1,0 +1,5 @@
+-I/home/qigao/qigao/linux_learn/manager/UpperCom
+-I/home/qigao/qigao/linux_learn/manager/UpperCom/build
+-o
+/home/qigao/qigao/linux_learn/manager/UpperCom/build/include/moc_uartclient.cpp
+/home/qigao/qigao/linux_learn/manager/UpperCom/include/uartclient.h

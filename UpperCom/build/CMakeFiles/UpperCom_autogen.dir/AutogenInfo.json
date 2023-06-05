@@ -1,0 +1,139 @@
+{
+	"BUILD_DIR" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build/UpperCom_autogen",
+	"CMAKE_BINARY_DIR" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/qigao/qigao/linux_learn/manager/UpperCom",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/qigao/qigao/linux_learn/manager/UpperCom",
+	"HEADERS" : 
+	[
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/MainWindow.h",
+			"mU",
+			""
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build/UpperCom_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build/UpperCom_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CHARTS_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SERIALPORT_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/build",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include",
+		"/home/qigao/Qt/5.11.3/gcc_64/include",
+		"/home/qigao/Qt/5.11.3/gcc_64/include/QtWidgets",
+		"/home/qigao/Qt/5.11.3/gcc_64/include/QtGui",
+		"/home/qigao/Qt/5.11.3/gcc_64/include/QtCore",
+		"/home/qigao/Qt/5.11.3/gcc_64/mkspecs/linux-g++",
+		"/home/qigao/Qt/5.11.3/gcc_64/include/QtCharts",
+		"/home/qigao/Qt/5.11.3/gcc_64/include/QtNetwork",
+		"/home/qigao/Qt/5.11.3/gcc_64/include/QtSerialPort",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build/UpperCom_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/MainWindow.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/gpsinfownd.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/hardwareclient.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/hygrownd.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/protocol.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/sendthread.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/tcpclient.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/thermwnd.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/uartclient.h",
+		"/home/qigao/qigao/linux_learn/manager/UpperCom/include/udpclient.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build/CMakeFiles/UpperCom_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/qigao/Qt/5.11.3/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/qigao/Qt/5.11.3/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/qigao/qigao/linux_learn/manager/UpperCom/build/CMakeFiles/UpperCom_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/qigao/qigao/linux_learn/manager/UpperCom/MainWindow.cpp", "MU" ],
+		[ "/home/qigao/qigao/linux_learn/manager/UpperCom/main.cpp", "MU" ],
+		[ "/home/qigao/qigao/linux_learn/manager/UpperCom/src/common.cpp", "MU" ],
+		[ "/home/qigao/qigao/linux_learn/manager/UpperCom/src/config.cpp", "MU" ],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/gpsinfownd.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/hardwareclient.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/hygrownd.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/protocol.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/sendthread.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/tcpclient.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/thermwnd.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/uartclient.cpp",
+			"MU"
+		],
+		[
+			"/home/qigao/qigao/linux_learn/manager/UpperCom/src/udpclient.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

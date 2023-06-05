@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Resources/hat.png</file>
+    </qresource>
+</RCC>

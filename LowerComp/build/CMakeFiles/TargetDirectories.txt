@@ -1,0 +1,11 @@
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/CMakeFiles/rebuild_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/CMakeFiles/edit_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/CMakeFiles/Lower_App.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/CMakeFiles/rebuild_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/CMakeFiles/edit_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/jsoncpp/CMakeFiles/edit_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/jsoncpp/CMakeFiles/rebuild_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/jsoncpp/CMakeFiles/jsoncpp.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/nmealib/CMakeFiles/edit_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/nmealib/CMakeFiles/rebuild_cache.dir
+/home/qigao/qigao/linux_learn/manager/LowerComp/build/lib/nmealib/CMakeFiles/nmea.dir

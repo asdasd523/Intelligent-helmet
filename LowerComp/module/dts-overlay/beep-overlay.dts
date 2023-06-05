@@ -1,0 +1,33 @@
+ /dts-v1/;
+ /plugin/;
+
+ #include "../imx6ul-pinfunc.h"
+ #include "dt-bindings/gpio/gpio.h"
+
+ / {
+        fragment@0 {
+            target-path = "/";
+            __overlay__ {
+                	beep{
+		                #address-cells = <1>;
+		                #size-cells = <1>;
+		                pinctrl-names = "default";
+		                compatible = "beep";
+		                pinctrl-0 = <&pinctrl_beep>;
+		                beep_gpr = <&gpio1 19 GPIO_ACTIVE_HIGH>;
+		                statue = "okay";
+	                };
+            };
+        };
+
+        fragment@1 {
+            target= <&iomuxc>;
+            __overlay__{
+				pinctrl_beep:beep{
+					fsl,pins = <
+					    MX6UL_PAD_UART1_RTS_B__GPIO1_IO19		0x000010B1
+					>;
+				};
+            };
+        };
+ };
