@@ -1,0 +1,42 @@
+/*
+ * Copyright (C) 2019 - All Rights Reserved by 
+ * filename : imx-fire-dht11-overlay.dts
+ * brief : Device Tree overlay for EBF6ull dht11 device
+ * author : embedfire
+ * date : 2019-12-14 
+ * version : A001
+ */
+/dts-v1/;
+/plugin/;
+#include "../imx6ul-pinfunc.h"
+#include "../imx6ull-pinfunc.h"
+#include "dt-bindings/gpio/gpio.h"
+ / {
+        fragment@0 {
+			target = <&iomuxc>;
+				__overlay__ { 
+					pinctrl_dht11: dht11grp {                       /*添加dht11的pinctrl子节点*/
+					fsl,pins = <                                    /*配置引脚寄存器,包括复用，输入输出模式*/
+						MX6UL_PAD_GPIO1_IO02__GPIO1_IO02	0x10b0	/*register offset address*/ 
+					>;
+				}; 
+			};
+		};    
+
+		fragment@1 {
+			target-path = "/";
+			__overlay__ {
+				dht11 {
+					#address-cells = <1>;
+					#size-cells = <1>;
+					pinctrl-names = "default";
+					compatible = "fire,temphum_dht11";
+                    linux,open-drain;
+					pinctrl-0 = <&pinctrl_dht11>;
+					dht11_pin = <&gpio1 2 GPIO_ACTIVE_HIGH>;	/*dht11 pin*/
+					status = "okay";
+				};
+			};
+		};
+
+ };

@@ -25,7 +25,7 @@
 
 /*------------------字符设备内容----------------------*/
 #define DEV_NAME            "led_dev"
-#define DEV_CNT                 (1)
+#define DEV_CNT                (1)
 
 //定义字符设备的设备号
 //定义字符设备结构体chr_dev
@@ -103,12 +103,14 @@ static ssize_t led_chr_dev_read(struct file *filp, char __user *buf, size_t cnt,
 	int error;
 
 	spin_lock_irqsave(&read_lock, flag);
+	
 	if((read_flag = gpio_get_value(rgb_led_red)) >= 0)
 		read_data |= (!read_flag) << 2;
 	else{
 		printk(KERN_EMERG "\t  read red_led error  \n");
 		return -4;
 	}
+
 	if ((read_flag = gpio_get_value(rgb_led_green)) >= 0)
 		read_data |= (!read_flag) << 1;
 	else{
