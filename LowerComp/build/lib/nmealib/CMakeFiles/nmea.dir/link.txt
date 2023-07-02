@@ -1,2 +1,0 @@
-/usr/bin/ar qc libnmea.a  CMakeFiles/nmea.dir/src/context.c.o CMakeFiles/nmea.dir/src/generate.c.o CMakeFiles/nmea.dir/src/generator.c.o CMakeFiles/nmea.dir/src/gmath.c.o CMakeFiles/nmea.dir/src/info.c.o CMakeFiles/nmea.dir/src/parse.c.o CMakeFiles/nmea.dir/src/parser.c.o CMakeFiles/nmea.dir/src/sentence.c.o CMakeFiles/nmea.dir/src/time.c.o CMakeFiles/nmea.dir/src/tok.c.o
-/usr/bin/ranlib libnmea.a

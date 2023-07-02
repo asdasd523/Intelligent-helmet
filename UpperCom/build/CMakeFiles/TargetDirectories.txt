@@ -1,4 +1,0 @@
-/home/qigao/qigao/linux_learn/manager/UpperCom/build/CMakeFiles/rebuild_cache.dir
-/home/qigao/qigao/linux_learn/manager/UpperCom/build/CMakeFiles/edit_cache.dir
-/home/qigao/qigao/linux_learn/manager/UpperCom/build/CMakeFiles/UpperCom.dir
-/home/qigao/qigao/linux_learn/manager/UpperCom/build/CMakeFiles/UpperCom_autogen.dir

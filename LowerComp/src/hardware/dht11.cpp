@@ -23,7 +23,7 @@ int CDHT11::HWread(uint8_t *data){
 
     length = read(fd, buf, 6);
     if(length == -1){
-        printf("read error! \n");
+        printf("dht11 read error! \n");
         return -1;
     }
 

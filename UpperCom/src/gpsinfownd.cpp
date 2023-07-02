@@ -35,6 +35,11 @@ void GPSInfoWnd::Enable_locating_alert(){
 
 void GPSInfoWnd::DrawScreen() {
 
+    gpsinfo.deg_lat = 33.652;
+    gpsinfo.deg_lon = -113.928;
+    gpsinfo.elv = 434.8f;
+    gpsinfo.speed = 58.0f;
+
     if(firstpaint == true){
         static qreal x = 0,y = 0;
         static int count = 0;
@@ -112,9 +117,9 @@ void GPSInfoWnd::DrawScreen() {
     if(isVisiable)
         painter.drawImage(rcImage, imgHat);
 
-    rcImage.adjust(0, 0, 0, fontMetrics.height());
-    QString str = QString("%1").arg(gpsinfo.elv);
-    painter.drawText(rcImage, str, Qt::AlignBottom | Qt::AlignHCenter);
+//    rcImage.adjust(0, 0, 0, fontMetrics.height());
+//    QString str = QString("%1").arg(gpsinfo.elv);
+//    painter.drawText(rcImage, str, Qt::AlignBottom | Qt::AlignHCenter);
 }
 
 QPoint GPSInfoWnd::ATONToPoint(qreal dCenterX, qreal dCenterY,
@@ -149,7 +154,7 @@ void GPSInfoWnd::mouseMoveEvent(QMouseEvent* event){
         str_text.sprintf("%f\n"
                     "%f\n"
                     "%.02f M\n"
-                    "%.02f KT\n",
+                    "%.02f Kts\n",
                     gpsinfo.deg_lat,
                     gpsinfo.deg_lon,
                     gpsinfo.elv,
@@ -163,6 +168,7 @@ void GPSInfoWnd::mouseMoveEvent(QMouseEvent* event){
 }
 
 bool GPSInfoWnd::isInTargetArea(const QPoint pos){
+
     int diff = 30;
 
 //    qDebug() << "posx:" << pos.x() << "ptx:" << pt.x()+imgScale/2 <<
@@ -174,4 +180,5 @@ bool GPSInfoWnd::isInTargetArea(const QPoint pos){
 
 
     return false;
+
 }

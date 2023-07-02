@@ -167,7 +167,7 @@ void MainWindow::init_btn_disable()
     ui->btn_beep_off->setDisabled(true);
     ui->btn_refresh->setDisabled(true);
     ui->btn_send_cmd->setDisabled(true);
-    ui->btn_filepath_update->setDisabled(true);
+    //ui->btn_filepath_update->setDisabled(true);
     ui->line_edit_dev_id->setReadOnly(false);
 }
 
@@ -184,7 +184,7 @@ void MainWindow::init_btn_enable()
     ui->btn_beep_off->setEnabled(true);
     ui->btn_refresh->setEnabled(true);
     ui->btn_send_cmd->setEnabled(true);
-    ui->btn_filepath_update->setEnabled(true);
+    //ui->btn_filepath_update->setEnabled(true);
     ui->line_edit_dev_id->setReadOnly(true);
 }
 
