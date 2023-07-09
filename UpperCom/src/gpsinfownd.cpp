@@ -35,11 +35,6 @@ void GPSInfoWnd::Enable_locating_alert(){
 
 void GPSInfoWnd::DrawScreen() {
 
-    gpsinfo.deg_lat = 33.652;
-    gpsinfo.deg_lon = -113.928;
-    gpsinfo.elv = 434.8f;
-    gpsinfo.speed = 58.0f;
-
     if(firstpaint == true){
         static qreal x = 0,y = 0;
         static int count = 0;

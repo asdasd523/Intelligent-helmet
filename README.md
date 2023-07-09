@@ -84,7 +84,7 @@ $ cd build
 $ cmake .. && make
 
 # 运行
-sudo ./UpperCom
+$ sudo ./UpperCom
 ~~~
 
 * 上位机使用
@@ -101,9 +101,7 @@ sudo ./UpperCom
 
 ## Contributing
 
-本项目主要参考:
-
-[remote_manage](https://github.com/zc110747/remote_manage)
+本项目主要参考:[remote_manage](https://github.com/zc110747/remote_manage)
 
 特别感谢[@zc110747](https://github.com/zc110747)
 

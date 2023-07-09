@@ -24,10 +24,10 @@ file(GLOB_RECURSE sources
      "./src/hardware/*.cpp"
      )
 include_directories(               # 指定包含的头文件目录
-               ./lib/jsoncpp/include
-               ./lib/nmealib/include
-               ./include
- )
+     ./lib/jsoncpp/include
+     ./lib/nmealib/include
+     ./include
+)
 link_directories(                  # 指定动态库目录位置
                /usr/lib
 )
