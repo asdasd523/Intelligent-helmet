@@ -97,7 +97,7 @@ $ sudo ./UpperCom
 
 #### Qt界面使用
   * 查询本地ip与开发板ip，分别填入`Socket Control`中
-  * 设定`TCP端口`为8000,`UDP端口`为80001
+  * 设定`TCP端口`为`8000`,`UDP端口`为`8001`
   * 运行下位机代码, 点击`connect`
   * connect成功的情况下, 下位机会通过udp不断向上位机发送传感器数据，并在`thermo-hygrometer`与`gps`栏中显示数据变化情况
 
